@@ -2,15 +2,15 @@
 
 A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, with 1.6 million tweets.  
 
-> **Deployed on my personal Docker Hub repository: *Click here* ![Click here](https://hub.docker.com/repository/docker/ibrahimserouis/my-tensorflow-models)
+> **Deployed on my personal Docker Hub repository: *Click here* [Click here](https://hub.docker.com/repository/docker/ibrahimserouis/my-tensorflow-models)
 
-> **Kaggle Notebook link:  ![Kaggle notebook](https://www.kaggle.com/ibrahimserouis99/twitter-sentiment-analysis)
+> **Kaggle Notebook link:  [Kaggle notebook](https://www.kaggle.com/ibrahimserouis99/twitter-sentiment-analysis)
 
 # Dataset (GloVe)
 
 - Train/test split : 90% / 10% 
 - Size : 1.6M samples 
-- Link : https://www.kaggle.com/ibrahimserouis99/twitter-sentiment-analysis-and-word-embeddings
+- Link : [Dataset](https://www.kaggle.com/ibrahimserouis99/twitter-sentiment-analysis-and-word-embeddings)
 
 
 # Model
