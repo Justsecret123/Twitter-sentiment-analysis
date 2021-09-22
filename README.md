@@ -10,7 +10,7 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 
 - Train/test split : 90% / 10% 
 - Size : 1.6M samples 
-- Link : https://www.kaggle.com/ibrahimserouis99/twitter-sentiment-analysis-and-word-embeddings
+- Link : [Dataset](https://www.kaggle.com/ibrahimserouis99/twitter-sentiment-analysis-and-word-embeddings)
 
 
 # Model
