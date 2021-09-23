@@ -6,7 +6,7 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 
 > **Kaggle Notebook link:  [Kaggle notebook](https://www.kaggle.com/ibrahimserouis99/twitter-sentiment-analysis)
 
-# Dataset (GloVe)
+# Dataset (Sentiment140)
 
 - Train/test split : 90% / 10% 
 - Size : 1.6M samples 
