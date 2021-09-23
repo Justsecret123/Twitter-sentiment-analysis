@@ -21,6 +21,7 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 - Outputs : 0 or 1. **0 = negative, 1 = positive**
 - Threshold (fine-tuned): 0.644 (>0.644 for a prediction to be labeled as "Positive")
 - Best validation accuracy : 83.10%
+- Version : 3
 
 # Training 
 
