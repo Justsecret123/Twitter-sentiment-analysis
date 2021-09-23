@@ -15,11 +15,12 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 
 # Model
 
-- Model type : Sequential, RNN, classification
+- Model type : Sequential, RNN, Binary classification
 - Optimizer : Adam
 - Loss function : Binary cross entropy 
 - Outputs : 0 or 1. **0 = negative, 1 = positive**
-- Best validation accuracy : 82.918%
+- Threshold (fine-tuned): 0.644 (>0.644 for a prediction to be labeled as "Positive")
+- Best validation accuracy : 83.10%
 
 # Training 
 
@@ -30,6 +31,16 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 ## Architecture
 
 ![Model_architecture](Screenshots/Model%20architecture.png)
+
+# Inferences (with Tensorflow Serving REST API)
+
+![Inference example](Screenshots/Inference%20example.PNG)
+
+# Test script 
+
+[Test script](Scripts/test_the_model.py)
+
+> **There's also a useful script to convert .h5 models to TF SavedModel format [here](Scripts/convert_from_h5_to_TFSavedModel.py)
 
 # Libraries
 

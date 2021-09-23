@@ -19,8 +19,10 @@ SERVER_URL = 'http://localhost:8501/v1/models/TSA_model:predict'
 
 def main():
     
+    threshold = 0.645
+    
     # Write down your sentence here 
-    examples = [["I feel very nice today"], ["It is a lot stressful for me"], ["is upset that he can t update his facebook by"]]
+    examples = [["Messi inserted the clutch gene in PSG. 2 last minute winners in 3 days. MY GOATTTT"], ["United out of the only competition they could dream winning ofLoudly crying faceLoudly crying face"]]
     
     inputs = np.array(examples)
     
@@ -40,13 +42,22 @@ def main():
     response = requests.post(SERVER_URL, data=predict_request)
     response.raise_for_status()
         
-    prediction = np.squeeze(response.json()['predictions'])
+    predictions = response.json()['predictions']
     
-    print("Predictions: ", prediction)
     
-    output = (prediction)
-        
-    print(f"\n\nOutput: {output} \n\n\n")
+    
+    print(f"\n\nPredictions: {predictions}")
+    
+    input_sentences = [example[0] + "    " for example in examples]
+    print(f"\n\nExamples: {input_sentences} ")
+    
+    
+    for prediction in predictions: 
+        prediction[0] = "Positive" if prediction[0] > threshold else "Negative"
+    
+    print(f"\nOutput: {predictions}")
+    
+    
 
 
 if __name__ == '__main__':
