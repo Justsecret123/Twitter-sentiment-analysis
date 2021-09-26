@@ -6,7 +6,7 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 
 > **Kaggle Notebook link:  [Kaggle notebook](https://www.kaggle.com/ibrahimserouis99/twitter-sentiment-analysis)
 
-# Dataset (GloVe)
+# Dataset (Sentiment140+GloVe)
 
 - Train/test split : 90% / 10% 
 - Size : 1.6M samples 
@@ -43,6 +43,13 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 > [Link to the test script](Scripts/test_the_model.py)
 
 > **There's also a useful script to convert .h5 models to TF SavedModel format [here](Scripts/convert_from_h5_to_TFSavedModel.py)
+
+# Data collection (tweets about Messi and Ronaldo)
+
+- Collected with the Twitter API 
+- Scripts for searching and saving 10.000 tweets containing a keyword : [Tweets about Messi](Scripts/search_n_times_100_messi_tweets.py) & [Tweets about Ronaldo](search_n_times_100_ronaldo_tweets.py)
+
+> **NOTE: The execution of these scripts requires a developper account, as well as a bearer_token stored into a text file which path is manually given into the code or exported as en environment variable**
 
 # Libraries
 
