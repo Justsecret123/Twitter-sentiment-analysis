@@ -21,7 +21,7 @@ bearer_token = os.environ.get("BEARER_TOKEN",value)
 
 # Build the query
 query_params = {
-    "query": "Ronaldo OR CR7 lang:en",
+    "query": "(Ronaldo OR CR7) lang:en",
     "max_results": "100",
     "expansions": "geo.place_id",
     "tweet.fields": "id,author_id,lang,created_at,public_metrics,source",
@@ -166,7 +166,7 @@ def main():
     print(f"\n\query params: {query_params} \n\n")
     
     create_headers("../Dataset/ronaldo_tweets.csv")
-    total = get_n_times_100_tweets()
+    total = get_n_times_100_tweets(370)
     
     print(f"Total tweets: {total}")
     

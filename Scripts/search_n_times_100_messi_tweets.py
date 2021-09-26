@@ -166,7 +166,7 @@ def main():
     print(f"\n\query params: {query_params} \n\n")
     
     create_headers("../Dataset/messi_tweets.csv")
-    total = get_n_times_100_tweets()
+    total = get_n_times_100_tweets(370)
     
     print(f"Total tweets: {total}")
     
