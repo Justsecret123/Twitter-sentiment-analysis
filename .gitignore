@@ -2,3 +2,6 @@ Dataset
 Dataset.zip
 Model
 .gitignore
+bearer_token.txt
+key.txt
+secret.txt
