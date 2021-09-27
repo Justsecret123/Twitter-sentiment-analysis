@@ -38,9 +38,23 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 
 ![Inference example](Screenshots/Inference%20example.PNG)
 
-# Test script 
+# Useful scripts and notebooks
 
-> [Link to the test script](Scripts/test_the_model.py)
+## Notebooks 
+
+> [Link to the training notebook](Notebook/twitter-sentiment-analysis.ipynb)
+
+> [Link to the data cleaning notebook](Notebook/data-cleaning-messi-and-ronaldo-tweets.ipynb)
+
+## Scripts
+
+> [Link to one of the tweet fetchers scripts](Scripts/search_n_times_100_ronaldo_tweets.py)
+
+> [Link to the Tensorflow Sevring script](Scripts/test_the_model.py)
+
+
+
+
 
 > **There's also a useful script to convert .h5 models to TF SavedModel format [here](Scripts/convert_from_h5_to_TFSavedModel.py)
 
