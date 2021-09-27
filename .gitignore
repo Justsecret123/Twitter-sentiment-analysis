@@ -6,3 +6,5 @@ bearer_token.txt
 key.txt
 secret.txt
 test_search.py
+get_messi_locations.py
+get_ronaldo_locations.py
