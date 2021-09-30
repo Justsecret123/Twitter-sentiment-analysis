@@ -38,6 +38,20 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 
 ![Inference example](Screenshots/Inference%20example.PNG)
 
+# Some results 
+
+## Positive tweets
+
+![Positives](Results/Positives.PNG)
+
+## Negative tweets 
+
+![Negatives](Results/Negatives.PNG)
+
+## Data by country (when available)
+
+![Country_date](Results/Data%20%by%country.PNG)
+
 # Useful scripts and notebooks
 
 ## Notebooks 
