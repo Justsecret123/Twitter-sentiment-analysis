@@ -50,7 +50,7 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 
 ## Data by country (when available)
 
-![Country](Results/Data%20by%20country.PNG)
+![Country](Results/Data%20by%20country%20v2.PNG)
 
 # Useful scripts and notebooks
 
