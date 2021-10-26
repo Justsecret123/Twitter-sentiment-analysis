@@ -71,7 +71,7 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 - Collected usinf the Twitter API 
 - Scripts for searching and saving 10.000*n tweets containing a keyword : [Tweets about Messi](Scripts/search_n_times_100_messi_tweets.py) & [Tweets about Ronaldo](Scripts/search_n_times_100_ronaldo_tweets.py)
 
-> **NOTE: The execution of these scripts requires a developper account, as well as a bearer_token stored into a text file which path is manually given into the code, or exported as en environment variable**
+> **NOTE: Executing these scripts requires a developper account, as well as a bearer_token stored into a text file which path is manually given into the code, or exported as en environment variable**
 
 # Libraries
 
