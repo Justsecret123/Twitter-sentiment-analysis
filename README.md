@@ -38,7 +38,7 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 
 ![Inference example](Screenshots/Inference%20example.PNG)
 
-# Some results with Power BI
+# Some results using Power BI
 
 ## Positive tweets
 
@@ -65,6 +65,7 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 > [Link to the Tensorflow Sevring script](Scripts/test_the_model.py)
 
 > **There's also a useful script (command line runner) that converts .h5 models to TF SavedModel format [here](Scripts/h5_to_savedmodel.py)
+> ![Args](Screenshots/clr_args.PNG)
 
 # Data collection (tweets about Messi and Ronaldo)
 
