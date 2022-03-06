@@ -64,7 +64,7 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 
 > [Link to the Tensorflow Sevring script](Scripts/test_the_model.py)
 
-> **There's also a useful script (command line runner) that converts .h5 models to TF SavedModel format [here](Scripts/h5_to_savedmodel.py.py)
+> **There's also a useful script (command line runner) that converts .h5 models to TF SavedModel format [here](Scripts/h5_to_savedmodel.py)
 
 # Data collection (tweets about Messi and Ronaldo)
 
