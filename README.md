@@ -42,15 +42,15 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 
 ## Positive tweets
 
-![Positives](Results/Positives.PNG)
+![Positives](Results/positive_messi.gif)
 
 ## Negative tweets 
 
-![Negatives](Results/Negatives.PNG)
+![Negatives](Results/negative_messi.gif)
 
 ## Data by country (when available)
 
-![Country](Results/Data%20by%20country%20v2.PNG)
+![Country](Results/country_messi.gif)
 
 # Useful scripts and notebooks
 
