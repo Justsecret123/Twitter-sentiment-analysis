@@ -6,6 +6,10 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 
 > **Kaggle Notebook link:  [Kaggle notebook](https://www.kaggle.com/ibrahimserouis99/twitter-sentiment-analysis)
 
+<a href="https://www.linkedin.com/in/ibrahim-serouis-b05378181/">
+  <img src="https://img.shields.io/badge/LinkedIn-Ibrahim%20Serouis-blue?link=http://left&link=http://right)"/>
+</a>
+
 # Dataset (Sentiment140+GloVe)
 
 - Train/test split : 90% / 10% 
