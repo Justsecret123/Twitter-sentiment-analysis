@@ -2,7 +2,7 @@
 
 A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, with 1.6 million tweets.  
 
-> **Deployed on my personal Docker Hub repository: *Click here* [Click here](https://hub.docker.com/repository/docker/ibrahimserouis/my-tensorflow-models)
+> **Deployed on my personal Docker Hub repository: [*Click here*](https://hub.docker.com/repository/docker/ibrahimserouis/my-tensorflow-models)
 
 > **Kaggle Notebook link:  [Kaggle notebook](https://www.kaggle.com/ibrahimserouis99/twitter-sentiment-analysis)
 
