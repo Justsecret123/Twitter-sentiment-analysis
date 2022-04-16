@@ -26,7 +26,7 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 - Thresholds (fine-tuned):  >0.593 ---> "Positive", <0.593 ----> "Negative"
 - Best validation accuracy : 83%
 - Best f1-score :  0.8351
-- Version : 3
+- Version : 4
 
 # Training 
 
