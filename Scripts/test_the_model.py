@@ -13,7 +13,7 @@ import requests
 SERVER_URL = "http://localhost:8501/v1/models/TSA_model:predict"
 
 # THRESHOLD
-THRESHOLD = 0.593
+THRESHOLD = 0.625
 
 def main():
     """Main"""
