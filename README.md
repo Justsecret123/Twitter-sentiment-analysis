@@ -62,7 +62,9 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 
 > [Link to the training notebook](Notebook/twitter-sentiment-analysis.ipynb)
 
-> [Link to the data cleaning notebook](Notebook/data-cleaning-messi-and-ronaldo-tweets.ipynb)
+> [How the inferences were made on our dataset](Notebook/custom-nlp-classifier-on-football-tweets.ipynb)
+
+> [Data cleaning notebook](Notebook/data-cleaning-messi-and-ronaldo-tweets.ipynb)
 
 ## Scripts
 
