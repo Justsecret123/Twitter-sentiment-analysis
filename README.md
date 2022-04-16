@@ -23,14 +23,14 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 - Optimizer : Adam
 - Loss function : Binary cross entropy 
 - Outputs : 0 or 1. **0 = negative, 1 = positive**
-- Thresholds (fine-tuned):  >=0.644 ---> "Positive", <0.6 ----> "Negative", and the values in-between are equivalent to "Neutral".
-- Best validation accuracy : 83.10%
+- Thresholds (fine-tuned):  >=0.644 ---> "Positive", <0.593 ----> "Negative", and the values in-between are equivalent to "Neutral".
+- Best validation accuracy : 83%
 - Best f1-score :  0.8351
 - Version : 3
 
 # Training 
 
-- Training epochs : **initially** 50, but 18 with early stopping and a patience factor = 10
+- Training epochs : **initially** 50, but 22 with early stopping and a patience factor = 10
 - Training environment : Kaggle GPU
 
 
