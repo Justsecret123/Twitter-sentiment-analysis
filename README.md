@@ -42,7 +42,7 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 
 ![Inference example](Screenshots/Inference%20example.PNG)
 
-# Some results using Power BI
+# Some results using Power BI + Python
 
 ## Positive tweets
 
