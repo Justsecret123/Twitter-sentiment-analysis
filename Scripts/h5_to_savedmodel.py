@@ -47,10 +47,6 @@ def create_parser():
 
 if __name__ == "__main__":
     
-    # Constants
-    MODEL_PATH = "path to your_model"
-    OUTPUT_PATH = "path_to_the_output"
-    
     # Setup the parser
     parser = create_parser()
     
