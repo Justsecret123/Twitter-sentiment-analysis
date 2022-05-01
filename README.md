@@ -66,6 +66,8 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 
 > [Data cleaning notebook](Notebook/data-cleaning-messi-and-ronaldo-tweets.ipynb)
 
+> [Data exploration notebook](Notebook/explore-tweets-about-messi-and-ronaldo.ipynb)
+
 ## Scripts
 
 > [Link to the Tensorflow Sevring script](Scripts/test_the_model.py)
