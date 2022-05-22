@@ -28,6 +28,14 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 - F1-score :  0.8340
 - Version : 4
 
+
+| Metric | Score |
+|--------|-------|
+Precision|**Negative**: 0.84; **Positive:** 0.82   |
+Recall   |**Negative**: 0.82; **Positive:** 0.84 |
+F-1 score|**Negative**: 0.83; **Positive:** 0.83
+
+
 # Training 
 
 - Training epochs : **initially** 50, but 22 with early stopping and a patience factor = 10
@@ -78,14 +86,14 @@ A sentiment analysis model trained using a Kaggle GPU. Sentiment140 Dataset, wit
 # Data collection (tweets about Messi and Ronaldo)
 
 - Collected using the Twitter API 
-- Scripts for searching and saving 10.000*n tweets containing a keyword : [Tweets about Messi](Scripts/search_n_times_100_messi_tweets.py) & [Tweets about Ronaldo](Scripts/search_n_times_100_ronaldo_tweets.py)
+- Scripts for searching and saving 100*n tweets containing a keyword : [Tweets about Messi](Scripts/search_n_times_100_messi_tweets.py) & [Tweets about Ronaldo](Scripts/search_n_times_100_ronaldo_tweets.py)
 
 > **NOTE: Executing these scripts requires a developer account, as well as a bearer_token stored into a text file whose path is manually given into the code, or exported as an environment variable**
 
 # Libraries
 
-- Deep Learning Framework : Tensorflow 2.0 or higher 
-- Data visualization : Pandas, seaborn, matplotlib
-- Regular expressions builder : re 
-- NLP library : NLTK, with stopwords
-- Train/test splitting, classification_report : Scikit-learn
+- **Deep Learning Framework :** Tensorflow 2.6 or higher 
+- **Data visualization :** Pandas, Seaborn, Matplotlib
+- **Regular expressions builder :** re 
+- **NLP library :** NLTK
+- **Train/test splitting, classification_report :** Scikit-learn
